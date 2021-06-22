@@ -1,5 +1,6 @@
 import BookList from '../BookList/BookList';
 import BookForm from '../BookForm/BookForm';
+import BookCSV from '../BookCSV/BookCSV.jsx';
 
 import './App.css';
 import {useEffect} from 'react';
@@ -31,6 +32,7 @@ function App() {
       <main>
         <BookForm fetchBookList={fetchBookList}/>
         <BookList />
+        <BookCSV />
       </main>
     </div>
   );

@@ -5,6 +5,9 @@
   "proxy": "http://localhost:5000",
   "dependencies": {
     "axios": "^0.19.2",
+    "csv-parser": "^3.0.0",
+    "csvtojson": "^2.0.10",
+    "express-fileupload": "^1.2.1",
     "pg": "^8.2.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
